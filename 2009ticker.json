@@ -1,0 +1,107 @@
+[
+  {
+    "genre": "News",
+    "message": "Late Show host David Letterman publicly reveals that he was the target of a $2 million extortion attempt related to his past relationships with staff members.",
+    "time": 84600
+  },
+  {
+    "genre": "News",
+    "message": "President Barack Obama signs an executive order banning federal employees from texting while driving on government business or using government-owned vehicles.",
+    "time": 36000
+  },
+  {
+    "genre": "News",
+    "message": "The United Kingdom's newly created Supreme Court officially opens, transferring judicial power from the House of Lords to an independent body for the first time.",
+    "time": 32400
+  },
+  {
+    "genre": "News",
+    "message": "China celebrates the 60th anniversary of the founding of the People's Republic with a massive military parade and patriotic displays in Beijing's Tiananmen Square.",
+    "time": 10800
+  },
+  {
+    "genre": "News",
+    "message": "In Venezuela, over 150 university students end a hunger strike after meeting with human rights officials and securing the release of a detained protest leader.",
+    "time": 54000
+  },
+  {
+    "genre": "Baseball",
+    "message": "The Minnesota Twins defeat the Detroit Tigers 8–3, keeping their postseason hopes alive as the American League Central race tightens.",
+    "time": 72600
+  },
+  {
+    "genre": "Baseball",
+    "message": "Manager Tony La Russa marks his 4,770th game managed in Major League Baseball, surpassing John McGraw for second-most in MLB history.",
+    "time": 75600
+  },
+  {
+    "genre": "Baseball",
+    "message": "Seattle Mariners' Ichiro Suzuki reaches 220 hits for the season, becoming the first MLB player to accomplish five 220-hit seasons.",
+    "time": 79200
+  },
+  {
+    "genre": "Baseball",
+    "message": "Veteran shortstop Orlando Cabrera hits the first grand slam of his career, helping propel the Twins to a critical win in the playoff chase.",
+    "time": 72900
+  },
+  {
+    "genre": "Hockey",
+    "message": "Washington Capitals' star Alexander Ovechkin opens the NHL season with two goals and an assist in a 4–1 victory over the Boston Bruins.",
+    "time": 68400
+  },
+  {
+    "genre": "Hockey",
+    "message": "Before the Colorado Avalanche's season opener, the team retires longtime captain Joe Sakic's jersey number 19 in an emotional pregame ceremony.",
+    "time": 66600
+  },
+  {
+    "genre": "Basketball",
+    "message": "The Indiana Fever tie the WNBA Finals 1–1 by defeating the Phoenix Mercury 93–84 in Game 2, led by Tamika Catchings' strong performance.",
+    "time": 77400
+  },
+  {
+    "genre": "Weather",
+    "message": "NASA releases satellite imagery of Typhoon Parma as it moves toward the Philippines, highlighting the storm’s development and projected path.",
+    "time": 43200
+  },
+  {
+    "genre": "Entertainment",
+    "message": "London Mayor Boris Johnson makes a surprise cameo on the British soap opera EastEnders, appearing in a lighthearted market scene.",
+    "time": 72000
+  },
+  {
+    "genre": "Baseball",
+    "message": "The Colorado Rockies clinch a National League Wild Card berth after defeating the Milwaukee Brewers 9–2, securing their spot in the postseason.",
+    "time": 73800
+  },
+  {
+    "genre": "Baseball",
+    "message": "The Houston Astros top the Philadelphia Phillies 5–3 in a late-season matchup with little playoff implication but strong individual performances.",
+    "time": 71400
+  },
+  {
+    "genre": "Baseball",
+    "message": "The St. Louis Cardinals dominate the Cincinnati Reds 13–0, highlighted by a grand slam and six RBIs from pitcher Chris Carpenter.",
+    "time": 75000
+  },
+  {
+    "genre": "Baseball",
+    "message": "Ichiro Suzuki sets a new Major League Baseball record with five seasons of 220 or more hits, continuing his streak of elite consistency.",
+    "time": 79200
+  },
+  {
+    "genre": "Hockey",
+    "message": "The Montreal Canadiens defeat the Toronto Maple Leafs 4–3 in overtime during the NHL’s opening night, thrilling fans with a dramatic finish.",
+    "time": 70200
+  },
+  {
+    "genre": "Hockey",
+    "message": "The Calgary Flames edge out the Vancouver Canucks 5–3 in a high-paced NHL season opener that featured aggressive play and solid goaltending.",
+    "time": 72900
+  },
+  {
+    "genre": "Hockey",
+    "message": "The Colorado Avalanche surprise the San Jose Sharks with a 5–2 victory on opening night, setting the tone for their new season.",
+    "time": 74400
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "crazy-turbo-js",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chromedriver": "^138.0.0",
+    "electron": "^36.4.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.34.0",
+    "yt-dlp-exec": "^1.0.2"
+  }
+}

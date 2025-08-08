@@ -1,0 +1,17 @@
+[
+  {
+    "archiveMode": false,
+    "year": 2009,
+    "speed": 1,
+    "bg": "auto",
+    "baseball": false,
+    "football": false,
+    "basketball": false,
+    "hockey": false,
+    "news": false,
+    "videoGames": false,
+    "youtubeVideos": false,
+    "music": false,
+    "minecraft": false
+  }
+]

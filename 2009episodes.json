@@ -1,0 +1,23 @@
+[
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 5,
+    "end": 3900,
+    "links": {
+      "Paramount": "https://www.paramountplus.com/shows/video/...",
+      "Amazon": "https://www.amazon.com/dp/..."
+    }
+  },
+  {
+    "show": "The Simpsons",
+    "episode": "Treehouse of Horror",
+    "network": "Fox",
+    "start": 6,
+    "end": 7500,
+    "links": {
+      "Disney": "https://www.disneyplus.com/..."
+    }
+  }
+]

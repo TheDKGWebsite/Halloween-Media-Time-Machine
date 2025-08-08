@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Halloween Time Machine</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
+
+    #wrapper {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: top left;
+      transform: scale(calc(100vw / 1920));
+      overflow: hidden;
+    }
+
+    #canvasLayer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    #startup {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+
+    #startup input,
+    #startup select,
+    #startup button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      width: 300px;
+    }
+
+    #dashboard {
+      display: none;
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .video-frame {
+      position: absolute;
+      border: 2px solid white;
+      overflow: hidden;
+    }
+
+    .video-frame video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #clock {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 24px;
+      z-index: 10;
+    }
+
+    video#bgVideo {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -10;
+    }
+
+    #dimmer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -5;
+    }
+
+    #labelCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0; /* bgVideo should be 1, and everything else above 2 */
+      width: 1920px;
+      height: 1080px;
+      pointer-events: none;
+    }
+
+    #messageWrapper {
+      position: fixed;
+      top: 20px;
+      left: 55%;
+      transform: translateX(-50%);
+      width: 500px;
+      text-align: center;
+      z-index: 10;
+      word-wrap: break-word;
+    }
+
+    #messageText {
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 5px;
+      white-space: normal;
+      word-break: break-word;
+    }
+
+    #messageTimeAgo {
+      font-size: 14px;
+      color: #cccccc;
+    }
+
+    #tickerContainer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-size: 16px;
+      line-height: 30px;
+      white-space: nowrap;
+      z-index: 10;
+    }
+
+    #tickerTrack {
+      display: inline-block;
+      white-space: nowrap;
+      will-change: transform;
+      animation: scrollTicker 90s linear infinite;
+    }
+
+    :root {
+      --ticker-width: 2000px;
+    }
+
+    @keyframes scrollTickerPixels {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(calc(-4 * var(--ticker-width))); }
+    }
+
+    #imageContainer {
+      position: fixed;
+      top: 70px;
+      left: 20px;
+      width: 300px;
+      height: 300px;
+      border: 2px solid white;
+      z-index: 5;
+      display: block;
+    }
+
+    #scheduledImage {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: none;
+    }
+
+
+    #settingsCog {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 32px;
+      height: 32px;
+      background-image: url('gear.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      z-index: 20;
+    }
+
+    #settingsDrawer {
+      position: fixed;
+      top: 0;
+      right: -30vw; /* instead of -30vw */
+      width: 480px;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.95);
+      color: white;
+      padding: 20px;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.6);
+      z-index: 15;
+      transition: right 0.4s ease;
+      overflow-y: auto;
+    }
+
+    #changeTimeModal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 30;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    #networkWindow {
+      position: fixed;
+      top: 30px;
+      right: 230px;
+      width: 200px;
+      color: white;
+      padding: 10px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<div id="wrapper">
+
+  <!-- Startup menu -->
+  <div id="startup">
+    <h1>Select Your Time Zone and Start Time</h1>
+    <select id="timezoneSelect"></select>
+    <input id="dayInput" type="number" min="1" max="31" placeholder="Day (1-31)">
+    <input id="timeInput" type="time" step="1">
+    <button onclick="submitStart()">Start Simulation</button>
+  </div>
+
+
+
+  <canvas id="labelCanvas"></canvas>
+  <!-- Main dashboard -->
+  <div id="dashboard">
+    <video id="bgVideo" autoplay muted playsinline></video>
+    <div id="dimmer"></div>
+    <canvas id="canvasLayer" width="1920" height="1080"></canvas>
+    <div id="clock"></div>
+    <div id="videoContainer"></div>
+    <div id="messageWrapper">
+      <div id="messageText"></div>
+      <div id="messageTimeAgo"></div>
+    </div>
+    <div id="tickerContainer"><div id="tickerTrack"></div></div>
+    <div id="imageContainer"><img id="scheduledImage" src=""></div>
+    <div id="settingsCog"></div>
+    <div id="settingsDrawer">
+      <h2>Settings</h2>
+      <button onclick="openChangeTime()">Change Time</button>
+      
+  <summary><strong>Customize Experience</strong></summary>
+  <div style="margin-top: 10px;">
+    <label>
+      Archive Mode
+      <span title="Simulates archival limitations, like older UI/tech behavior.">ⓘ</span>
+      <input type="checkbox" id="archiveMode">
+    </label><br><br>
+
+    <label>
+      Year
+      <input type="number" id="settingYear" style="width: 80px;">
+    </label><br><br>
+
+    <label>
+      Speed
+      <span title="Controls the speed of simulation. 1 = real-time.">ⓘ</span>
+      <input type="number" id="settingSpeed" step="0.1" style="width: 80px;">
+    </label><br><br>
+
+    <label>
+      Background
+      <span title="Choose background: auto = seasonal default, dark = blackout, light = daytime.">ⓘ</span>
+      <select id="settingBg">
+        <option value="auto">Auto</option>
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+      </select>
+    </label><br><br>
+
+    <label><input type="checkbox" id="settingBaseball"> Baseball</label><br>
+    <label><input type="checkbox" id="settingFootball"> Football</label><br>
+    <label><input type="checkbox" id="settingBasketball"> Basketball</label><br>
+    <label><input type="checkbox" id="settingHockey"> Hockey</label><br>
+    <label><input type="checkbox" id="settingNews"> News</label><br>
+    <label><input type="checkbox" id="settingVideoGames"> Video Games</label><br>
+    <label><input type="checkbox" id="settingYoutubeVideos"> YouTube Videos</label><br>
+    <label><input type="checkbox" id="settingMusic"> Music</label><br>
+    <label><input type="checkbox" id="settingMinecraft"> Minecraft</label><br><br>
+
+    <button onclick="applySettings()">Apply Settings</button>
+  </div>
+
+    </div>
+    <div id="changeTimeModal">
+      <div>
+        <h3>Set New Time</h3>
+        <input id="newDay" type="number" min="1" max="31" placeholder="Day (1-31)">
+        <input id="newTime" type="time" step="1">
+        <button onclick="applyNewTime()">Apply</button>
+        <button onclick="closeChangeTime()">Cancel</button>
+      </div>
+    </div>
+    <div id="networkWindow"><div id="networkContent"></div></div>
+  </div>
+</div>
+
+<script>
+  const wrapper = document.getElementById('wrapper');
+  const canvas = document.getElementById('canvasLayer');
+  function resizeAll() {
+    const scaleX = window.innerWidth / 1920;
+    const scaleY = window.innerHeight / 1080;
+    const scale = Math.min(scaleX, scaleY);
+    wrapper.style.transform = `scale(${scale})`;
+    canvas.width = 1920;
+    canvas.height = 1080;
+    canvas.style.transform = `scale(${scale})`;
+  }
+  window.addEventListener('resize', resizeAll);
+  resizeAll();
+</script>
+
+<script src="renderer.js"></script>
+</body>
+</html>
