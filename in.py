@@ -33,4 +33,3 @@ yt_dlp_path = os.path.join(current_dir, "yt-dlp.exe")
 
 urllib.request.urlretrieve(yt_dlp_url, yt_dlp_path)
 
-print("✅ Done! Files saved to current folder.")
