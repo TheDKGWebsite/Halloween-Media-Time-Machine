@@ -1,23 +1,1370 @@
 [
   {
     "show": "SpongeBob SquarePants",
-    "episode": "Scaredy Pants",
+    "episode": "Squidward the Unfriendly Ghost",
     "network": "nick",
-    "start": 5,
-    "end": 3900,
-    "links": {
-      "Paramount": "https://www.paramountplus.com/shows/video/...",
-      "Amazon": "https://www.amazon.com/dp/..."
-    }
+    "start": 668700,
+    "end": 669360,
+    "links": {}
   },
   {
-    "show": "The Simpsons",
-    "episode": "Treehouse of Horror",
-    "network": "Fox",
-    "start": 6,
-    "end": 7500,
-    "links": {
-      "Disney": "https://www.disneyplus.com/..."
-    }
+    "show": "SpongeBob SquarePants",
+    "episode": "Shanghaied",
+    "network": "nick",
+    "start": 1346400,
+    "end": 1347060,
+    "links": {}
+  },
+  {
+    "show": "Back at the Barnyard",
+    "episode": "The Haunting",
+    "network": "nick",
+    "start": 1354500,
+    "end": 1355880,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Squidward the Unfriendly Ghost",
+    "network": "nick",
+    "start": 1781100,
+    "end": 1781760,
+    "links": {}
+  },
+  {
+    "show": "The Fairly OddParents",
+    "episode": "Scary GodParents",
+    "network": "nick",
+    "start": 1971000,
+    "end": 1972500,
+    "links": {}
+  },
+  {
+    "show": "The Troop",
+    "episode": "The Great Punkin",
+    "network": "nick",
+    "start": 1972800,
+    "end": 1974240,
+    "links": {}
+  },
+  {
+    "show": "The Fairly OddParents",
+    "episode": "Scary GodParents",
+    "network": "nick",
+    "start": 2017800,
+    "end": 2019300,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2023200,
+    "end": 2023860,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2024100,
+    "end": 2024760,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2059200,
+    "end": 2060580,
+    "links": {}
+  },
+  {
+    "show": "The Troop",
+    "episode": "The Great Punkin",
+    "network": "nick",
+    "start": 2062800,
+    "end": 2064240,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2109600,
+    "end": 2110260,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2110500,
+    "end": 2111160,
+    "links": {}
+  },
+  {
+    "show": "Back at the Barnyard",
+    "episode": "Back at the Booyard",
+    "network": "nick",
+    "start": 2113200,
+    "end": 2114580,
+    "links": {}
+  },
+  {
+    "show": "The Mighty B!",
+    "episode": "Catatonic",
+    "network": "nick",
+    "start": 2115000,
+    "end": 2116440,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2143800,
+    "end": 2145180,
+    "links": {}
+  },
+  {
+    "show": "The Fairly OddParents",
+    "episode": "Scary GodParents",
+    "network": "nick",
+    "start": 2183400,
+    "end": 2184900,
+    "links": {}
+  },
+  {
+    "show": "Ni Hao, Kai",
+    "episode": "Lan - Ni Hao, Halloween",
+    "network": "nick",
+    "start": 2190600,
+    "end": 2192040,
+    "links": {}
+  },
+  {
+    "show": "Dora the Explorer",
+    "episode": "Boo!",
+    "network": "nick",
+    "start": 2192400,
+    "end": 2193840,
+    "links": {}
+  },
+  {
+    "show": "Go, Diego, Go!",
+    "episode": "Freddie the Fruit Bat Saves Halloween!",
+    "network": "nick",
+    "start": 2196000,
+    "end": 2197440,
+    "links": {}
+  },
+  {
+    "show": "Wonder Pets!",
+    "episode": "Save the Bat!",
+    "network": "nick",
+    "start": 2197800,
+    "end": 2198460,
+    "links": {}
+  },
+  {
+    "show": "Wonder Pets!",
+    "episode": "Help the Monster!",
+    "network": "nick",
+    "start": 2198700,
+    "end": 2199360,
+    "links": {}
+  },
+  {
+    "show": "Max & Ruby",
+    "episode": "Max's Jack-o-Lantern / Max & Ruby's Perfect Pumpkin / Max's Big Boo!",
+    "network": "nick",
+    "start": 2199600,
+    "end": 2200980,
+    "links": {}
+  },
+  {
+    "show": "Max & Ruby",
+    "episode": "Max's Halloween / Ruby's Leaf Collection / The Blue Tarantula",
+    "network": "nick",
+    "start": 2201400,
+    "end": 2202780,
+    "links": {}
+  },
+  {
+    "show": "Dora the Explorer",
+    "episode": "Boo!",
+    "network": "nick",
+    "start": 2205000,
+    "end": 2206440,
+    "links": {}
+  },
+  {
+    "show": "Wow! Wow! Wubbzy!",
+    "episode": "The Ghost of Wuzzleburg / March of the Pumpkins",
+    "network": "nick",
+    "start": 2206800,
+    "end": 2208180,
+    "links": {}
+  },
+  {
+    "show": "The Backyardigans",
+    "episode": "The Funnyman Boogeyman",
+    "network": "nick",
+    "start": 2208600,
+    "end": 2209980,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2210400,
+    "end": 2211060,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2214000,
+    "end": 2215380,
+    "links": {}
+  },
+  {
+    "show": "Zoey 101",
+    "episode": "Haunted House",
+    "network": "nick",
+    "start": 2217600,
+    "end": 2218980,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2221200,
+    "end": 2221860,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2222100,
+    "end": 2222760,
+    "links": {}
+  },
+  {
+    "show": "The Troop",
+    "episode": "The Great Punkin",
+    "network": "nick",
+    "start": 2226600,
+    "end": 2228040,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2228400,
+    "end": 2229780,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Chimps Ahoy / Ghost Host",
+    "network": "nick",
+    "start": 2230200,
+    "end": 2231520,
+    "links": {}
+  },
+  {
+    "show": "Glenn Martin, DDS",
+    "episode": "Halloween Hangover",
+    "network": "nick",
+    "start": 2232000,
+    "end": 2233320,
+    "links": {}
+  },
+  {
+    "show": "Malcolm in the Middle",
+    "episode": "Halloween",
+    "network": "nick",
+    "start": 2233800,
+    "end": 2235180,
+    "links": {}
+  },
+  {
+    "show": "Everybody Hates Chris",
+    "episode": "Everybody Hates Halloween",
+    "network": "nick",
+    "start": 2235600,
+    "end": 2236920,
+    "links": {}
+  },
+  {
+    "show": "George Lopez",
+    "episode": "No One Gets Out Alive",
+    "network": "nick",
+    "start": 2237400,
+    "end": 2238720,
+    "links": {}
+  },
+  {
+    "show": "George Lopez",
+    "episode": "Trick or Treat Me Right",
+    "network": "nick",
+    "start": 2239200,
+    "end": 2240520,
+    "links": {}
+  },
+  {
+    "show": "Back at the Barnyard",
+    "episode": "Back at the Booyard",
+    "network": "nick",
+    "start": 2271600,
+    "end": 2272980,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2273400,
+    "end": 2274060,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Ghost Host",
+    "network": "nick",
+    "start": 2274300,
+    "end": 2274960,
+    "links": {}
+  },
+  {
+    "show": "The Backyardigans",
+    "episode": "Scared of You",
+    "network": "nick",
+    "start": 2277000,
+    "end": 2278440,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Graveyard Shift",
+    "network": "nick",
+    "start": 2296800,
+    "end": 2297460,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2307600,
+    "end": 2308260,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Squidward the Unfriendly Ghost",
+    "network": "nick",
+    "start": 2308500,
+    "end": 2309160,
+    "links": {}
+  },
+  {
+    "show": "The Penguins of Madagascar",
+    "episode": "I Was a Penguin Zombie",
+    "network": "nick",
+    "start": 2309400,
+    "end": 2310120,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2311200,
+    "end": 2312580,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2316600,
+    "end": 2317260,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2317500,
+    "end": 2318160,
+    "links": {}
+  },
+  {
+    "show": "Wonder Pets!",
+    "episode": "Save the Bat!",
+    "network": "nick",
+    "start": 2363400,
+    "end": 2364060,
+    "links": {}
+  },
+  {
+    "show": "Wonder Pets!",
+    "episode": "Help the Monster!",
+    "network": "nick",
+    "start": 2364300,
+    "end": 2364960,
+    "links": {}
+  },
+  {
+    "show": "Dora the Explorer",
+    "episode": "BOO!",
+    "network": "nick",
+    "start": 2365200,
+    "end": 2366640,
+    "links": {}
+  },
+  {
+    "show": "Go, Diego, Go!",
+    "episode": "Freddie the Fruit Bat Saves Halloween!",
+    "network": "nick",
+    "start": 2368800,
+    "end": 2370240,
+    "links": {}
+  },
+  {
+    "show": "Ni Hao, Kai",
+    "episode": "Lan - Ni Hao, Halloween",
+    "network": "nick",
+    "start": 2381400,
+    "end": 2382840,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2388600,
+    "end": 2389980,
+    "links": {}
+  },
+  {
+    "show": "Zoey 101",
+    "episode": "Haunted House",
+    "network": "nick",
+    "start": 2390400,
+    "end": 2391780,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2394000,
+    "end": 2394660,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Graveyard Shift",
+    "network": "nick",
+    "start": 2394900,
+    "end": 2395560,
+    "links": {}
+  },
+  {
+    "show": "The Fairly OddParents",
+    "episode": "Scary GodParents",
+    "network": "nick",
+    "start": 2442600,
+    "end": 2444100,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2448000,
+    "end": 2448660,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2448900,
+    "end": 2449560,
+    "links": {}
+  },
+  {
+    "show": "The Backyardigans",
+    "episode": "It's Great to Be a Ghost!",
+    "network": "nick",
+    "start": 2449800,
+    "end": 2451180,
+    "links": {}
+  },
+  {
+    "show": "Max & Ruby",
+    "episode": "Max's Halloween / Ruby's Leaf Collection / The Blue Tarantula",
+    "network": "nick",
+    "start": 2458800,
+    "end": 2460180,
+    "links": {}
+  },
+  {
+    "show": "Dora the Explorer",
+    "episode": "Boo!",
+    "network": "nick",
+    "start": 2464200,
+    "end": 2465640,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2471400,
+    "end": 2472060,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2472300,
+    "end": 2472960,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Ghost Host",
+    "network": "nick",
+    "start": 2480400,
+    "end": 2481060,
+    "links": {}
+  },
+  {
+    "show": "The Troop",
+    "episode": "The Great Punkin",
+    "network": "nick",
+    "start": 2485800,
+    "end": 2487240,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2487600,
+    "end": 2488980,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2489400,
+    "end": 2490060,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2490300,
+    "end": 2490960,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Graveyard Shift",
+    "network": "nick",
+    "start": 2534400,
+    "end": 2535060,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2535300,
+    "end": 2535960,
+    "links": {}
+  },
+  {
+    "show": "The Backyardigans",
+    "episode": "The Funnyman Boogeyman",
+    "network": "nick",
+    "start": 2536200,
+    "end": 2537580,
+    "links": {}
+  },
+  {
+    "show": "Dora the Explorer",
+    "episode": "Boo!",
+    "network": "nick",
+    "start": 2538000,
+    "end": 2539440,
+    "links": {}
+  },
+  {
+    "show": "Go, Diego, Go!",
+    "episode": "Freddie the Fruit Bat Saves Halloween!",
+    "network": "nick",
+    "start": 2541600,
+    "end": 2543040,
+    "links": {}
+  },
+  {
+    "show": "Max & Ruby",
+    "episode": "Max & Ruby's Perfect Pumpkin / Max's Jack-O-Lantern / Max's Big Boo!",
+    "network": "nick",
+    "start": 2545200,
+    "end": 2546580,
+    "links": {}
+  },
+  {
+    "show": "Max & Ruby",
+    "episode": "Max's Halloween / Ruby's Leaf Collection / The Blue Tarantula",
+    "network": "nick",
+    "start": 2547000,
+    "end": 2548380,
+    "links": {}
+  },
+  {
+    "show": "Dora the Explorer",
+    "episode": "Boo!",
+    "network": "nick",
+    "start": 2550600,
+    "end": 2552040,
+    "links": {}
+  },
+  {
+    "show": "Wonder Pets!",
+    "episode": "Save the Bat!",
+    "network": "nick",
+    "start": 2552400,
+    "end": 2553060,
+    "links": {}
+  },
+  {
+    "show": "Wonder Pets!",
+    "episode": "Help the Monster!",
+    "network": "nick",
+    "start": 2553300,
+    "end": 2553960,
+    "links": {}
+  },
+  {
+    "show": "Ni Hao, Kai",
+    "episode": "Lan - Ni Hao, Halloween",
+    "network": "nick",
+    "start": 2554200,
+    "end": 2555640,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2556000,
+    "end": 2556660,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Graveyard Shift",
+    "network": "nick",
+    "start": 2556900,
+    "end": 2557560,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2559600,
+    "end": 2560980,
+    "links": {}
+  },
+  {
+    "show": "Zoey 101",
+    "episode": "Haunted House",
+    "network": "nick",
+    "start": 2563200,
+    "end": 2564580,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants",
+    "network": "nick",
+    "start": 2566800,
+    "end": 2567460,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2567700,
+    "end": 2568360,
+    "links": {}
+  },
+  {
+    "show": "The Penguins of Madagascar",
+    "episode": "I Was a Penguin Zombie",
+    "network": "nick",
+    "start": 2568600,
+    "end": 2569320,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2570400,
+    "end": 2571780,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Ghost Host",
+    "network": "nick",
+    "start": 2575800,
+    "end": 2576460,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Graveyard Shift",
+    "network": "nick",
+    "start": 2576700,
+    "end": 2577360,
+    "links": {}
+  },
+  {
+    "show": "The Troop",
+    "episode": "The Great Pumpkin",
+    "network": "nick",
+    "start": 2579400,
+    "end": 2580600,
+    "links": {}
+  },
+  {
+    "show": "Danny Phantom",
+    "episode": "Frightmare",
+    "network": "nick",
+    "start": 2615400,
+    "end": 2616840,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "The Curse of Bikini Bottom",
+    "network": "nick",
+    "start": 2624400,
+    "end": 2625060,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Ghost Host",
+    "network": "nick",
+    "start": 2625300,
+    "end": 2625960,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants / I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2626200,
+    "end": 2627520,
+    "links": {}
+  },
+  {
+    "show": "The Penguins of Madagascar",
+    "episode": "I Was a Penguin Zombie / Sting Operation",
+    "network": "nick",
+    "start": 2628000,
+    "end": 2629320,
+    "links": {}
+  },
+  {
+    "show": "The Fairly OddParents",
+    "episode": "Scary GodParents",
+    "network": "nick",
+    "start": 2642400,
+    "end": 2643900,
+    "links": {}
+  },
+  {
+    "show": "Back at the Barnyard",
+    "episode": "Back at the Booyard",
+    "network": "nick",
+    "start": 2644200,
+    "end": 2645580,
+    "links": {}
+  },
+  {
+    "show": "The Mighty B!",
+    "episode": "Catatonic",
+    "network": "nick",
+    "start": 2646000,
+    "end": 2647440,
+    "links": {}
+  },
+  {
+    "show": "The Penguins of Madagascar",
+    "episode": "I Was a Penguin Zombie / Sting Operation",
+    "network": "nick",
+    "start": 2647800,
+    "end": 2649120,
+    "links": {}
+  },
+  {
+    "show": "SpongeBob SquarePants",
+    "episode": "Scaredy Pants / I Was a Teenage Gary",
+    "network": "nick",
+    "start": 2649600,
+    "end": 2650920,
+    "links": {}
+  },
+  {
+    "show": "Zoey 101",
+    "episode": "Haunted House",
+    "network": "nick",
+    "start": 2651400,
+    "end": 2652780,
+    "links": {}
+  },
+  {
+    "show": "iCarly",
+    "episode": "iScream on Halloween",
+    "network": "nick",
+    "start": 2664000,
+    "end": 2665380,
+    "links": {}
+  },
+  {
+    "show": "The Troop",
+    "episode": "The Great Punkin",
+    "network": "nick",
+    "start": 2667600,
+    "end": 2669040,
+    "links": {}
+  },
+  {
+    "show": "Glenn Martin, DDS",
+    "episode": "Halloween Hangover",
+    "network": "nick",
+    "start": 2671200,
+    "end": 2672520,
+    "links": {}
+  },
+  {
+    "show": "Malcolm in the Middle",
+    "episode": "Halloween",
+    "network": "nick",
+    "start": 2673000,
+    "end": 2674380,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 286200,
+    "end": 286860,
+    "links": {}
+  },
+  {
+    "show": "Phantom of the Megaplex (2000)",
+    "episode": "(movie)",
+    "network": "disneyxd",
+    "start": 291600,
+    "end": 296940,
+    "links": {}
+  },
+  {
+    "show": "Zeke and Luther",
+    "episode": "Haunted Board (premiere)",
+    "network": "disneyxd",
+    "start": 415800,
+    "end": 417060,
+    "links": {}
+  },
+  {
+    "show": "Aaron Stone",
+    "episode": "Dreamcast (premiere)",
+    "network": "disneyxd",
+    "start": 590400,
+    "end": 591660,
+    "links": {}
+  },
+  {
+    "show": "Kid vs. Kat",
+    "episode": "Beware the Were-Coop / Trick or Threat",
+    "network": "disneyxd",
+    "start": 810000,
+    "end": 811320,
+    "links": {}
+  },
+  {
+    "show": "Monster Buster Club",
+    "episode": "Trick or Treat... or Alien",
+    "network": "disneyxd",
+    "start": 831000,
+    "end": 832320,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 846000,
+    "end": 846660,
+    "links": {}
+  },
+  {
+    "show": "Zeke and Luther",
+    "episode": "Haunted Board",
+    "network": "disneyxd",
+    "start": 858600,
+    "end": 859860,
+    "links": {}
+  },
+  {
+    "show": "The Haunted Mansion (2003)",
+    "episode": "(movie)",
+    "network": "disneyxd",
+    "start": 870000,
+    "end": 922200,
+    "links": {}
+  },
+  {
+    "show": "The Spectacular Spider-Man",
+    "episode": "The Uncertainty Principle",
+    "network": "disneyxd",
+    "start": 882600,
+    "end": 883920,
+    "links": {}
+  },
+  {
+    "show": "Static Shock",
+    "episode": "Army of Darkness",
+    "network": "disneyxd",
+    "start": 900000,
+    "end": 901320,
+    "links": {}
+  },
+  {
+    "show": "Monster Buster Club",
+    "episode": "Trick or Treat... or Alien",
+    "network": "disneyxd",
+    "start": 921600,
+    "end": 922920,
+    "links": {}
+  },
+  {
+    "show": "Kid vs. Kat",
+    "episode": "Beware the Were-Coop / Trick or Threat",
+    "network": "disneyxd",
+    "start": 936000,
+    "end": 937320,
+    "links": {}
+  },
+  {
+    "show": "Zeke and Luther",
+    "episode": "Haunted Board",
+    "network": "disneyxd",
+    "start": 957600,
+    "end": 958860,
+    "links": {}
+  },
+  {
+    "show": "The Haunted Mansion (2003)",
+    "episode": "(movie)",
+    "network": "disneyxd",
+    "start": 972000,
+    "end": 1024200,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 1000800,
+    "end": 1001460,
+    "links": {}
+  },
+  {
+    "show": "The Black Cauldron (1985)",
+    "episode": "(movie)",
+    "network": "disneyxd",
+    "start": 1425600,
+    "end": 1473600,
+    "links": {}
+  },
+  {
+    "show": "Jimmy Two-Shoes",
+    "episode": "Night in the Heinous Museum",
+    "network": "disneyxd",
+    "start": 1443300,
+    "end": 1443960,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "Are You My Mummy? / Flop Starz",
+    "network": "disneyxd",
+    "start": 1452600,
+    "end": 1453920,
+    "links": {}
+  },
+  {
+    "show": "The Suite Life on Deck",
+    "episode": "Sea Monster Mash",
+    "network": "disneyxd",
+    "start": 1474200,
+    "end": 1475520,
+    "links": {}
+  },
+  {
+    "show": "The Black Cauldron (1985)",
+    "episode": "(movie)",
+    "network": "disneyxd",
+    "start": 1486800,
+    "end": 1534800,
+    "links": {}
+  },
+  {
+    "show": "Zeke and Luther",
+    "episode": "Haunted Board",
+    "network": "disneyxd",
+    "start": 1502700,
+    "end": 1503960,
+    "links": {}
+  },
+  {
+    "show": "Aaron Stone",
+    "episode": "Dreamcast",
+    "network": "disneyxd",
+    "start": 1504500,
+    "end": 1505760,
+    "links": {}
+  },
+  {
+    "show": "The Suite Life of Zack & Cody",
+    "episode": "Arwinstein",
+    "network": "disneyxd",
+    "start": 1508400,
+    "end": 1509720,
+    "links": {}
+  },
+  {
+    "show": "Even Stevens",
+    "episode": "A Very Scary Story",
+    "network": "disneyxd",
+    "start": 1649400,
+    "end": 1650720,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 1770000,
+    "end": 1770660,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "The Monster of Phineas-n-Ferbenstein / Oil on Candace",
+    "network": "disneyxd",
+    "start": 1812600,
+    "end": 1813920,
+    "links": {}
+  },
+  {
+    "show": "X-Men: Evolution",
+    "episode": "The Beast of Bayville",
+    "network": "disneyxd",
+    "start": 1816200,
+    "end": 1817520,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "Are You My Mummy? / Flop Starz",
+    "network": "disneyxd",
+    "start": 1876200,
+    "end": 1877520,
+    "links": {}
+  },
+  {
+    "show": "Frankenweenie (1984)",
+    "episode": "(short)",
+    "network": "disneyxd",
+    "start": 1890000,
+    "end": 1907400,
+    "links": {}
+  },
+  {
+    "show": "Frankenweenie (1984)",
+    "episode": "(short)",
+    "network": "disneyxd",
+    "start": 1917000,
+    "end": 1934400,
+    "links": {}
+  },
+  {
+    "show": "Jimmy Two-Shoes",
+    "episode": "Night in the Heinous Museum / I Married a Weavil",
+    "network": "disneyxd",
+    "start": 1929000,
+    "end": 1930320,
+    "links": {}
+  },
+  {
+    "show": "Monster Buster Club",
+    "episode": "Trick or Treat... or Alien",
+    "network": "disneyxd",
+    "start": 1947600,
+    "end": 1948920,
+    "links": {}
+  },
+  {
+    "show": "Kid vs. Kat",
+    "episode": "Curse of Tutankitty’s Tomb / Pet Peeved",
+    "network": "disneyxd",
+    "start": 1962000,
+    "end": 1963320,
+    "links": {}
+  },
+  {
+    "show": "Chaotic",
+    "episode": "The Curse of Kor-bek",
+    "network": "disneyxd",
+    "start": 2592000,
+    "end": 2593320,
+    "links": {}
+  },
+  {
+    "show": "Yin Yang Yo!",
+    "episode": "The Howl of the Weenie",
+    "network": "disneyxd",
+    "start": 2593800,
+    "end": 2595120,
+    "links": {}
+  },
+  {
+    "show": "Gargoyles",
+    "episode": "Vows",
+    "network": "disneyxd",
+    "start": 2595600,
+    "end": 2596920,
+    "links": {}
+  },
+  {
+    "show": "Jackie Chan Adventures",
+    "episode": "Fright Fight Night",
+    "network": "disneyxd",
+    "start": 2597400,
+    "end": 2598720,
+    "links": {}
+  },
+  {
+    "show": "American Dragon: Jake Long",
+    "episode": "The Halloween Bash",
+    "network": "disneyxd",
+    "start": 2599200,
+    "end": 2600460,
+    "links": {}
+  },
+  {
+    "show": "The Emperor’s New School",
+    "episode": "The Yzma That Stole Kuzcoween / Monster Masquerade",
+    "network": "disneyxd",
+    "start": 2601000,
+    "end": 2602320,
+    "links": {}
+  },
+  {
+    "show": "Recess",
+    "episode": "Terrifying Tales of Recess",
+    "network": "disneyxd",
+    "start": 2602800,
+    "end": 2604060,
+    "links": {}
+  },
+  {
+    "show": "Even Stevens",
+    "episode": "A Very Scary Story",
+    "network": "disneyxd",
+    "start": 2604600,
+    "end": 2605920,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 2608200,
+    "end": 2608860,
+    "links": {}
+  },
+  {
+    "show": "Kid vs. Kat",
+    "episode": "House of Scream / Planter’s Warp",
+    "network": "disneyxd",
+    "start": 2615400,
+    "end": 2616720,
+    "links": {}
+  },
+  {
+    "show": "Frankenweenie (1984)",
+    "episode": "(short)",
+    "network": "disneyxd",
+    "start": 2622600,
+    "end": 2640000,
+    "links": {}
+  },
+  {
+    "show": "Frankenweenie (1984)",
+    "episode": "(short)",
+    "network": "disneyxd",
+    "start": 2642700,
+    "end": 2660100,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 2667000,
+    "end": 2667660,
+    "links": {}
+  },
+  {
+    "show": "Zeke and Luther",
+    "episode": "Haunted Board",
+    "network": "disneyxd",
+    "start": 2668800,
+    "end": 2670060,
+    "links": {}
+  },
+  {
+    "show": "The Spectacular Spider-Man",
+    "episode": "The Uncertainty Principle",
+    "network": "disneyxd",
+    "start": 2670600,
+    "end": 2671920,
+    "links": {}
+  },
+  {
+    "show": "Aaron Stone",
+    "episode": "Dreamcast",
+    "network": "disneyxd",
+    "start": 2672400,
+    "end": 2673660,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "The Monster of Phineas-n-Ferbenstein / Oil on Candace",
+    "network": "disneyxd",
+    "start": 2674200,
+    "end": 2675520,
+    "links": {}
+  },
+  {
+    "show": "Monster Buster Club",
+    "episode": "Trick or Treat... or Alien",
+    "network": "disneyxd",
+    "start": 2677800,
+    "end": 2679120,
+    "links": {}
+  },
+  {
+    "show": "Kid vs. Kat",
+    "episode": "Beware the Were-Coop / Trick or Threat",
+    "network": "disneyxd",
+    "start": 2679600,
+    "end": 2680920,
+    "links": {}
+  },
+  {
+    "show": "American Dragon: Jake Long",
+    "episode": "Halloween Bash",
+    "network": "disneyxd",
+    "start": 2681400,
+    "end": 2682660,
+    "links": {}
+  },
+  {
+    "show": "Cory in the House",
+    "episode": "Who Let the Dolls Out?",
+    "network": "disneyxd",
+    "start": 2685000,
+    "end": 2686320,
+    "links": {}
+  },
+  {
+    "show": "Phil of the Future",
+    "episode": "Halloween",
+    "network": "disneyxd",
+    "start": 2686800,
+    "end": 2688060,
+    "links": {}
+  },
+  {
+    "show": "Even Stevens",
+    "episode": "A Very Scary Story",
+    "network": "disneyxd",
+    "start": 2688600,
+    "end": 2689920,
+    "links": {}
+  },
+  {
+    "show": "The Suite Life of Zack & Cody",
+    "episode": "Arwinstein",
+    "network": "disneyxd",
+    "start": 2696400,
+    "end": 2697720,
+    "links": {}
+  },
+  {
+    "show": "Phineas and Ferb",
+    "episode": "One Good Scare Ought to Do It!",
+    "network": "disneyxd",
+    "start": 2698200,
+    "end": 2698860,
+    "links": {}
+  },
+  {
+    "show": "Aaron Stone",
+    "episode": "Dreamcast",
+    "network": "disneyxd",
+    "start": 2700000,
+    "end": 2701260,
+    "links": {}
+  },
+  {
+    "show": "The Scream Team (2002)",
+    "episode": "(movie)",
+    "network": "disneyxd",
+    "start": 2671200,
+    "end": 2676480,
+    "links": {}
   }
 ]
