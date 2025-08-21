@@ -200,33 +200,39 @@ async function submitStart() {
 }
 
 window.electron.onTick(async (seconds) => {
+    try {
   const formatted = formatSimulatedTime(seconds);
   document.getElementById('clock').innerText = formatted;
 
-  // ---------------- IMAGE SCHEDULE CHECK ----------------
-  activeImages = [];
+// ---------------- IMAGE SCHEDULE CHECK ----------------
+const activeImages = [];
 
-  // 1. Find all images that should be active now
-  for (const img of imageSchedule) {
-    const start = img.time + shiftFromEST;
-    const end = start + img.duration;
-    if (seconds >= start && seconds < end) {
-      activeImages.push(img);
-    }
+for (const img of imageSchedule) {
+  const start = img.time + shiftFromEST;
+  const end = start + img.duration;
+  if (seconds >= start && seconds < end) {
+    activeImages.push(img);
   }
+}
 
-  // 2. If no images active, hide
-  if (activeImages.length === 0) {
-    hideImage(); // Define this to clear image
-    return;
-  }
-
-  // 3. Choose which image to show: alternate every second
-  const switchInterval = 10; // Change to how often (in seconds) you want to switch images
-const currentIndex = Math.floor(seconds / switchInterval) % activeImages.length;
+// If none active, hide and skip the rest
+if (activeImages.length === 0) {
+  const container = document.getElementById('imageContainer');
+  const imgEl = document.getElementById('scheduledImage');
+  imgEl.style.display = 'none';
+  imgEl.src = '';
+  container.style.backgroundColor = 'transparent';
+} else {
+  // Choose which image to show
+  const switchInterval = 10; // seconds
+  const currentIndex = Math.floor(seconds / switchInterval) % activeImages.length;
   const currentImage = activeImages[currentIndex];
-  const pathIMG = await window.electron.getImagePath(currentImage.filename);
-  showImage(pathIMG, 1); // Always show for 1s to allow clean switching
+
+  if (currentImage && currentImage.filename) {
+    const pathIMG = await window.electron.getImagePath(currentImage.filename);
+    showImage(pathIMG, 1);
+  }
+}
 
   // ---------------- TEXT MESSAGE CHECK ----------------
   for (const msg of messageSchedule) {
@@ -279,6 +285,7 @@ const currentIndex = Math.floor(seconds / switchInterval) % activeImages.length;
 const networkContent = document.getElementById('networkContent');
 
 const currentEpisodes = episodeSchedule.filter(ep => seconds >= ep.start && seconds < ep.end);
+
 
 if (currentEpisodes.length > 0) {
   networkWindow.style.display = 'block';
@@ -338,6 +345,15 @@ updateTickerDisplay()
 }
 updateBgLight()
 
+console.log("Current Episodes:", currentEpisodes);
+//print seconds
+console.log("Current Time (seconds):", seconds);
+
+
+  } catch (err) {
+    console.error('onTick error:', err);
+  }
+
 });
 
 const linkToFile = {};
@@ -372,8 +388,6 @@ async function watchForUpcomingVideos() {
     for (const item of schedule) {
       const { link, start } = item;
 
-      //print (start + shiftFromEST) - currentTime
-      console.log(`Time until ${link}: ${(start + shiftFromEST) - currentTime} seconds`);
 
       let dlDelay = 200 * speedGuy; // 200 seconds per speed unit
 
